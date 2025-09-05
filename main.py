@@ -22,7 +22,6 @@ class Note(BaseModel):
     nota: float = Field(..., examples=[1.1])
 
 
-
 student_db: List[Person] = []
 teacher_db: List[Person] = []
 subject_db: List[Subject] = []
